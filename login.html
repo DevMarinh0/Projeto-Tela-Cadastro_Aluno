@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/login.css" />
+    <title>Sistema Web com Bootstrap</title>
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header></header>
+
+    <!-- Conteúdo principal -->
+    <main class="container-fluid conteudo">
+      <section class="container">
+        <div class="row">
+          <!-- Logomarca -->
+          <div class="col-12 text-center mb-5">
+            <a href="index.html"
+              ><img src="assets/img/logo_senac.jpg" alt=""
+            /></a>
+          </div>
+
+          <!-- Título e Subtítulo -->
+          <div class="col-12 text-center mb-4">
+            <h2>Sistema Acadêmico</h2>
+            <h4>Acesse o sistema</h4>
+          </div>
+        </div>
+
+        <!-- Formulário de login -->
+        <form class="row g-1" action="" method="post">
+          <div class="col-12 form-floating mb-3">
+            <input
+              type="email"
+              class="form-control"
+              id="floatingInput"
+              placeholder="name@example.com"
+              name="email"
+            />
+            <label for="floatingInput">Endereço de e-mail</label>
+          </div>
+          <div class="col-12 form-floating">
+            <input
+              type="password"
+              class="form-control"
+              id="floatingPassword"
+              placeholder="Password"
+              name="senha"
+            />
+            <label for="floatingPassword">Senha</label>
+          </div>
+
+          <div class="col-12 mt-4 text-center mb-3">
+            <button type="submit" class="btn btn-primary">Login</button>
+          </div>
+        </form>
+
+        <!-- Links de recuperação de senha e cadastro de usuário -->
+        <div class="row">
+          <div class="col-12 text-center mb-4 fw-bold">
+            <a href="#">Esqueceu sua senha?</a>
+          </div>
+
+          <div class="col-12 text-center">
+            <p>
+              Ainda não tem conta?
+              <a href="cadastro.html" class="fw-bold text-info"
+                >Faça o seu cadastro!</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="container-fluid">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>&copy; Senac Amazonas</h2>
+          <p>Versão: 1.0.000 - AMBIENTE DE PRODUÇÃO: AM</p>
+          <p>Todos os direitos reservados - 2024</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
